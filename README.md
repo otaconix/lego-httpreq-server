@@ -17,6 +17,8 @@ The server is configured entirely through environment variables.
 
 The address the server will listen on. See [go's net.Dial documentation](https://golang.org/pkg/net/#Dial).
 
+Defaults to: `:8080`.
+
 Example values:
 
 - `:8080`: listen on all IP's, on port 8080
